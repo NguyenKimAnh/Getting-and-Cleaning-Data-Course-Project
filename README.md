@@ -13,7 +13,7 @@ Each pair of activity and subject corresponds to one and only one record. For ea
 - the activity label
 - the identifier of the subject who carried out the specified activity
 - Average values of all features having "mean" or "std" (cases are not sensitive) in 
-feature variable names, aggregated by the specified activity and the specified subject.
+feature variable names, aggregated with function mean by the specified activity and the specified subject.
 
 The resulted dataset is written into the file named "avr_mean_or_std_data.txt" with columns' names
 
